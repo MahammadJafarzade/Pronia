@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.offer {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 47px;
+  line-height: 65px;
+  display: block;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.desc {
+  font-size: 22px;
+}
+
+.slider-summary {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.btn {
+  background-color: #63af0b;
+  border-radius: 32.5px;
+  width: 210px;
+}
+
+.btn:hover {
+  background-color: blueviolet;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn p {
+  margin-bottom: 0;
+  padding: 20px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 100px;
+}
+
+.shipping {
+  padding: 20px;
+  margin: 0 20px;
+  border: 1px dashed #abd373;
+  border-radius: 5px;
+  padding: 25px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shipping img {
+  width: 60px;
+}
+
+.shipping #title {
+  font-weight: 700;
+}
+
+.shipping .features-summary {
+  padding-left: 20px;
+}
+
+.payment {
+  padding: 20px;
+  margin: 0 20px;
+  border: 1px dashed #abd373;
+  border-radius: 5px;
+  padding: 25px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.payment img {
+  width: 60px;
+}
+
+.payment #title {
+  font-weight: 700;
+}
+
+.payment .features-summary {
+  padding-left: 20px;
+}
+
+.services {
+  padding: 20px;
+  margin: 0 20px;
+  border: 1px dashed #abd373;
+  border-radius: 5px;
+  padding: 25px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.services img {
+  width: 60px;
+}
+
+.services #title {
+  font-weight: 700;
+}
+
+.services .features-summary {
+  padding-left: 20px;
+}
+/*# sourceMappingURL=main.css.map */

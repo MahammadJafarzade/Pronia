@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.summary{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.offer{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 47px;
+    line-height: 65px;
+    display: block;
+}
+.title{
+    text-transform:uppercase;
+}
+.desc{
+    font-size: 22px;
+}
+.slider-summary{
+    justify-content: center;
+    align-content: center;
+}
+.btn{
+    background-color: rgb(99, 175, 11);
+    border-radius: 32.5px;
+    width: 210px;
+    &:hover{
+        background-color: blueviolet;
+        transition: 0.5s;
+    }
+    p{
+        margin-bottom: 0;
+        padding: 20px 20px;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: white;
+    }
+}
+.features{
+    display: flex;
+    padding-top: 100px;
+}
+.shipping{
+    padding: 20px;
+    margin: 0 20px;
+    border: 1px dashed #abd373;
+    border-radius: 5px;
+    padding: 25px 30px;
+    display: flex;
+    img{
+        width: 60px;
+    }
+    #title{
+        font-weight: 700;
+    }
+    .features-summary{
+       padding-left: 20px; 
+    }
+}
+.payment{
+    padding: 20px;
+    margin: 0 20px;
+    border: 1px dashed #abd373;
+    border-radius: 5px;
+    padding: 25px 30px;
+    display: flex;
+    img{
+        width: 60px;
+    }
+    #title{
+        font-weight: 700;
+    }
+    .features-summary{
+       padding-left: 20px; 
+    }
+}
+.services{
+    padding: 20px;
+    margin: 0 20px;
+    border: 1px dashed #abd373;
+    border-radius: 5px;
+    padding: 25px 30px;
+    display: flex;
+    img{
+        width: 60px;
+    }
+    #title{
+        font-weight: 700;
+    }
+    .features-summary{
+       padding-left: 20px; 
+    }
+}
